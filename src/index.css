@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.overflowScroll {
+  overflow: scroll;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+.container {
+  padding-top: 15vh;
+}
+
+.zoomButton {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.zoomButton:hover {
+  color: #F82B60;
+}
+button:focus {outline:0;}
+
+.date {
+  border-left: solid 1px grey;
+  color: grey;
+  font-size: 10px;
+  text-align: center;
+}
+
+.pill { 
+  border-radius: 7px;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.pill input {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 4px;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.smallText{
+  margin: 4px;
+  padding-left: 4px;
+  font-size: 10px;
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+.red {
+  background-color: #F82B60
+}
+
+.yellow {
+  background-color: #FCB401
+}
+
+.blue {
+  background-color: #19c0ff
+}
